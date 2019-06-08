@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+        android:background="#e6f2ff">
+
+
+
+    <TextView
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:paddingBottom="20dp"
+        android:textColor="#ff0000"
+        android:text=" BLUR The Band"
+        android:textSize="40sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="40dp"
+            android:paddingLeft="5dp">
+
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="180dp"
+                android:background="@drawable/imageborder"
+                android:src="@drawable/blur" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000099"
+                android:paddingTop="20dp"
+                android:paddingBottom="30dp"
+                android:text="Blur are an English rock band formed in London in 1988.  "
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="239dp"
+            android:background="@drawable/imageborder"
+            android:src="@drawable/blurbandphoto" />
+
+    <TextView
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:paddingBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000099"
+        android:text="The group consists of lead vocalist/keyboardist Damon Albarn, guitarist/vocalist Graham Coxon, bassist Alex James and drummer Dave Rowntree."
+        android:textSize="24sp" />
+
+
+        <TextView
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:text="SEE ALBUMS"
+            android:textColor="#ff0000"
+            android:onClick="openAlbumsAndSingles"/>
+
+        <TextView
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="#ff0000"
+            android:text="THE BAND MEMBERS"
+            android:onClick="openBandMembers"/>
+
+
+
+</LinearLayout>
+</ScrollView>

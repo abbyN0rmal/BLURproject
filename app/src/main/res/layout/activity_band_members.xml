@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#e6f2ff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:textColor="#ff0000"
+            android:text="The Band Members"
+            android:textSize="40sp" />
+
+
+
+        <!--Damon Albarn -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="180dp"
+                android:src="@drawable/damonalbarn"/>
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="40dp"
+                android:paddingBottom="40dp"
+                android:text="Damon Albarn OBE is an English musician, singer, songwriter, and record producer, best known as the lead singer of the British rock band Blur as well as the co-founder, lead vocalist, instrumentalist, and principal songwriter of the virtual band Gorillaz"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+
+        <!-- Graham Coxon -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:paddingTop="40dp"
+                android:paddingBottom="40dp"
+                android:text="Graham Leslie Coxon is an English musician, singer-songwriter and painter who came to prominence as a founding member of the rock band Blur"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="180dp"
+                android:src="@drawable/grahamcoxon" />
+        </LinearLayout>
+
+
+
+        <!-- Alex James -->
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="165dp"
+            android:layout_height="180dp"
+            android:src="@drawable/alexjames" />
+
+            <TextView
+                android:layout_width="220dp"
+                android:layout_height="329dp"
+                android:paddingTop="40dp"
+                android:paddingBottom="40dp"
+                android:text="Steven Alexander James, FRSA is an English musician and songwriter, as well as a journalist and cheesemaker. Best known as the bassist of the band Blur, he has also played with temporary bands."
+                android:textAlignment="center"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+
+        <!-- Dave Rowntree -->
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:paddingTop="40dp"
+            android:paddingBottom="40dp"
+            android:text="David Alexander De Horne Rowntree is an English musician, politician, solicitor and animator. He is the drummer for the rock band Blur. He is a councillor in Norfolk County Council."
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="180dp"
+                android:src="@drawable/daverowntree" />
+        </LinearLayout>
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="40dp"
+        android:paddingBottom="40dp"
+        android:textColor="#ff0000"
+        android:text="Other Random Blur Photos"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:src="@drawable/groupphoto"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:src="@drawable/blurbeingblur" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:src="@drawable/groupphoto2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:src="@drawable/blurplayingcrazy" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:src="@drawable/multiblurbandcover" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:paddingRight="30dp"
+            android:paddingLeft="30dp"
+            android:src="@drawable/alexanddamon" />
+
+
+        <Button
+            android:paddingTop="25dp"
+            android:paddingBottom="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="GO BACK TO HOME"
+            android:onClick="openMainActivity"/>
+
+
+    </LinearLayout>
+</ScrollView>
